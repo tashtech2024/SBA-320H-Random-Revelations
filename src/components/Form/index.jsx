@@ -1,0 +1,27 @@
+import { useState } from "react";
+
+function Form({factsearch}) {
+    const [formData, setFormData] = useState({
+        searchFact: "", 
+    }); 
+    const handleChange = (e) => {
+        setFormData({
+            ...formData,
+            [e.target.name]: e.target.value,
+
+        });
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        factsearch(FormData.searchFact)
+        onchange=(handleChange)
+    };
+    return(
+    <div>
+        <h1>-----</h1>
+    </div>
+    );
+}
+    
+export default Form; 
