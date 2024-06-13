@@ -4,7 +4,7 @@ import Form from './components/Form';
 import FactDisplay from './components/FactsDisplay';
 
 function App() {
-  const api = "https://meowfacts.herokuapp.com/?count=3"
+  const api = "https://meowfacts.herokuapp.com/?count=1"
   const [FactsData, setFact] = useState(null);
   const getFact = async () => {
     try {

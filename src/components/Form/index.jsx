@@ -19,7 +19,9 @@ function Form({factsearch}) {
     };
     return(
     <div>
-        <h1>-----</h1>
+        <form onSubmit={handleSubmit}>
+            
+        </form>
     </div>
     );
 }
