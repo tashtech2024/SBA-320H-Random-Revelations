@@ -1,4 +1,6 @@
-function FactDisplay({ fact }) {
+import { useState } from "react";
+
+function FactDisplay({ fact, getFact }) {
     console.log(fact);
 
     const updateFact = (factId, newFactContent) => {
@@ -18,13 +20,12 @@ function FactDisplay({ fact }) {
     return (
         <div>
             <h1>{fact}</h1>
-            <fact 
+            {/* fact 
             fact={item}
-            key={item_id ? item_id : item.id}
-            <button className="button">
-                className="button"
-                data-text="FunFact"
-            New Fact</button>
+            key={item_id ? item_id : item.id} */}
+        <button onClick={getFact}>
+            Fact Button
+        </button>
     
         </div>
     )
