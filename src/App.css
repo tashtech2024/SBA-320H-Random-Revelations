@@ -1,5 +1,5 @@
 #root {
-  background-image:url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fvectors%2Fcat-background&psig=AOvVaw32jHC7ld151iXckv4Ig41X&ust=1718234206202000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKDG067X1IYDFQAAAAAdAAAAABAE);
+
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -7,8 +7,17 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+body {
+  background-image:url("../src/media/SBA-IMG-JPG-CSS-BACKGROUND.jpg");
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
 .logo {
-  height: 6em;
+  flex: auto;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
@@ -43,6 +52,35 @@
   color: #888;
 }
 
-.button{
+button {
+  cursor: pointer;
+  font-weight: 700;
+  font-family: Helvetica,"sans-serif";
+  transition: all .2s;
+  padding: 10px 20px;
+  border-radius: 100px;
+  background: #00ef9f;
+  border: 1px solid transparent;
 
+  align-items: center;
+  font-size: 25px;
 }
+
+button:hover {
+  background: #36dbdb;
+}
+
+button > svg {
+  width: 34px;
+  margin-left: 10px;
+  transition: transform .3s ease-in-out;
+}
+
+button:hover svg {
+  transform: translateX(5px);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+

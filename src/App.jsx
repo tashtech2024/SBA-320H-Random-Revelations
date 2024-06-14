@@ -25,16 +25,18 @@ function App() {
 
   return (
     <>
-   {/* <NavBar/> */}
+      {/* <NavBar/> */}
       <h1>SBA 320H "Purr-fect Facts"</h1>
-
-      <img src="public/Free-Logo-Maker-Get-Custom-Logo-Designs-in-Minutes-Looka (2)purrfect.png" alt="Purr-fect Logo" width={500} height={600} />
-      
+      {/* LOGO */}
+      <img src="public/Free-Logo-Maker-Get-Custom-Logo-Designs-in-Minutes-Looka (2)purrfect.png" alt="Purr-fect Logo" width={400} height={600} />
+{/*  */}
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMV66k3GRupi8_jVOGb2__jAbl4P4kxe3HZg&s" alt="Grey and white cats" width={500} height={600} />
 
       <Form factsearch />
       {FactsData ? <FactDisplay fact={FactsData}
         getFact={getFact} /> : ""}
+
+        
 
         
     </>
