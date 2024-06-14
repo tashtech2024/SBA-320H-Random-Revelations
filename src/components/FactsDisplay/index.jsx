@@ -23,9 +23,10 @@ function FactDisplay({ fact, getFact }) {
             {/* fact 
             fact={item}
             key={item_id ? item_id : item.id} */}
-{/*  */}
+
+{/* BUTTON */}
         <button onClick={getFact}>
-  <span>Continue</span>
+  <span>Next Fact</span>
   <svg
     width={34}
     height={34}
