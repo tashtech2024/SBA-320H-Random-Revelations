@@ -33,14 +33,14 @@ Component-based architecture for maintainability and scalability.
 How It Works:
 The app fetches random cat facts from a public API or a pre-defined dataset.
 .
-State management is handled using React’s useState and useEffect hooks to ensure smooth updates and data fetching.
+State management is handled using React’s useState hook to ensure smooth updates and data fetching.
 
 Conclusion:
 Random Revelations is your go-to app for a daily dose of fascinating cat facts. Built with the power of ReactJS, it promises a fast, responsive, and enjoyable experience for all users. Dive into the world of random cat facts and let Purr-Fect Facts surprise you!
 
 New Features Coming Soon : Purr-Fect Facts 2.0.1
 
-* Add your own fact to our database! (Facts will be checked daily by: 12 NOON PST, and will be removed if needed )
+* Add your own fact to our database! (Facts will be checked daily by: 12 NOON PST, and will be removed if needed)
 * Facts Page : Where you can view new facts in list form. 
 * New photos! 
 
